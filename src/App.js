@@ -1,24 +1,18 @@
-import logo from './logo.svg';
+//import React,{useState} from 'react';
+//import axios from 'axios';
 import './App.css';
+import Rotas from './routes';
+
 
 function App() {
+  // const [usuario,setUsuario] = useState('');
+  // var handleSearch=()=>{
+  //   axios.get('https://api.github.com/users/elsonss1988/repos').then(response => console.log(response.data));
+  // }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Rotas/>
+     </>
   );
 }
 
